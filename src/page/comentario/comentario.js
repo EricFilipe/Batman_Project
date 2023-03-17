@@ -53,7 +53,7 @@ function Comentarios() {
                         <input type="text" id="message" name="text" placeholder="Deixe aqui seu comentário..."></input>
                     </form>
                     <div className="block2">
-                        <form action="/comentario"><input type="checkbox" name="checkbox" id="checkbox" /><strong>Anonimous</strong></form> 
+                        <form action="/comentario"><input type="checkbox" name="checkbox" id="checkbox" /><strong>Publicar anonimamente</strong></form> 
                         <button id="button">Publicar comentário</button>
                     </div>
                 </div>
