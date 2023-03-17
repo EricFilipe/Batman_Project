@@ -1,0 +1,67 @@
+#cards-container{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.cards-content{
+    width: 90%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+}
+
+.cards{
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 0 20px 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.cards:hover{
+    transform: scale(1.02);
+}
+
+.banner1{
+    background-image: url('https://veja.abril.com.br/wp-content/uploads/2022/03/batman-oscar.jpg');
+}
+
+.banner2{
+    background-image: url('https://pbs.twimg.com/media/FMO83fmWYAMYttY?format=jpg&name=900x900');
+}
+
+.banner3{
+    background-image: url('https://images.immediate.co.uk/production/volatile/sites/3/2020/11/jeffrey_wright_commissioner_gordon_batman_dc-87bf1a7.jpg?quality=90&resize=620,413');
+}
+
+@media(max-width: 768px){
+    #cards-container{
+        height: 1900px;
+        margin-bottom: 80px;
+        margin-top: 130px;
+    }
+
+    .cards-content{
+        height: 1900px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+    }
+
+    .cards{
+        height: 600px;
+    }
+}

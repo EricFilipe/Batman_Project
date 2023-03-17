@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+#inf-container{
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #0A0A0A;
+    background-size: cover;
+}
+
+.inf-content{
+    height: 550px;
+    width: 90%;
+    display: flex;
+    margin: 75px 0 0 70px;
+}
+
+.pic{
+    width: 30%;
+    background-image: url('https://upload.wikimedia.org/wikipedia/pt/3/38/The_Batman_poster.jpg');
+    background-size: cover;
+}
+
+.description-container{
+    color: #fff;
+    margin-left: 39px;
+}
+
+h1{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 48px;
+}
+
+h2{
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.description-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacao{
+    height: 300px;
+    width: 70%;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+#coment-container{
+    height: 400px;
+    width: 90%;
+    margin: 250px 0 0px 60px;
+}
+
+.upper{
+    width: 95%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 35px;
+}
+
+h1{
+    font-size: 24px;
+}
+
+#box{
+    background-color: #bfbfbf;
+}
+
+.coment-block{
+    height: 200px;
+    width: 90%;
+    margin: 20px 0 0 60px;
+    display: flex;
+    column-gap: 8px;
+}
+
+#coment-block2{
+    width: 100%;
+}
+
+#avatar{
+    height: 100px;
+}
+
+#message{
+    height: 130px;
+    width: 99%;
+    padding-left: 10px;
+    background-color: #f2f2f2;
+}
+
+.block2{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    font-size: 14px;
+    background-color: #bfbfbf;
+    margin: 5px 0 0 4px;
+    border-radius: 5px;
+}
+
+#button{
+    height: 22px;
+    width: 200px;
+    margin: 0 15px;
+    font-size: 14px;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #2878EB;
+}
+
+@media(max-width: 768px){
+    #inf-container{
+        height: 200vh;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .inf-content{
+        display: grid;
+        margin: 35px 0 0 15px;
+    }
+
+    .pic{
+        width: 80%;
+        height: 600px;
+        margin-left: 35px;
+        background-position: center;
+    }
+
+   .description-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+
+   #coment-container{
+        margin: 270px 0 100px 0px;
+   }
+
+   .upper{
+    width: 100%;
+        margin-left: 15px;
+   }
+
+   #coment-title{
+        font-size: 20px;
+   }
+
+   .divider{
+        margin-bottom: 20px;
+   }
+
+   .coment-block{
+        margin: 0 0 0 15px;
+   }
+
+   #avatar{
+        height: 60px;
+   }
+
+   .block2{
+        width: 105%;
+        margin: 5px 0 0 0;
+   }
+
+   #message{
+        height:100px;
+   }
+
+   #button{
+    width: 150px;
+   }
+}

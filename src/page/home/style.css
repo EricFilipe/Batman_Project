@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+#banner{
+    height: 600px;
+    width: 100%;
+    background-image: url('https://pbs.twimg.com/media/FBwJWeQXIAItfyH.jpg:large');
+    background-size: cover;
+    background-position: center;
+}
+
+#trailer-container{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 53px;
+}
+
+.trailer{
+    width: 50%;
+}
+
+#sinopse{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description{
+    height: auto;
+    width: 70%;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#botao{
+    width: 200px;
+    height: 60px;
+    background-color: #d21617;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: .8s;
+    border: none;
+    outline: none;
+}
+
+#botao:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+@media(max-width: 768px){
+    #banner{
+        background-position: 40%;
+    }
+
+    .content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer{
+        width: 100%;
+    }
+
+    #sinopse{
+        width: 95%;
+        margin-left: 10px;
+    }
+
+    .description{
+        width: 100%;
+    }
+
+    #botao{
+        width: 95%;
+    }
+}

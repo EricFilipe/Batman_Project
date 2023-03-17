@@ -1,0 +1,28 @@
+.galery-container{
+    margin: 100px 0 200px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1.5vw;
+    row-gap: 3vw;
+    padding: 0 1vw;
+}
+
+.galery-itens{
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 5px #161717;
+    transition: .5s;
+    object-fit: cover;
+}
+
+.galery-itens:hover{
+    transform: scale(1.2);
+}
+
+@media(max-width: 768px){
+    .galery-container{
+        row-gap: 8vw;
+        margin-bottom: 150px;
+    }
+}
